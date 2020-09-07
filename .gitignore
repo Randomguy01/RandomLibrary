@@ -1,0 +1,32 @@
+# IDE
+/.idea/caches
+/.idea/dictionaries
+/.idea/libraries
+/local.properties
+
+/.idea/assetWizardSettings.xml
+/.idea/gradle.xml
+/.idea/jarRepositories.xml
+/.idea/markdown-navigator.xml
+/.idea/markdown-navigator-enh.xml
+/.idea/modules.xml
+/.idea/navEditor.xml
+/.idea/workspace.xml
+
+*.iml
+
+# Gradle
+.gradle
+
+# Build
+/build
+.externalNativeBuild
+
+# Emulator
+/captures
+
+# C++
+.cxx
+
+# Mac
+.DS_Store
