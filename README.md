@@ -1,3 +1,4 @@
+![Android CI](https://github.com/Randomguy01/RandomLibrary/workflows/Android%20CI/badge.svg)
 # Welcome to RandomLibrary!
 
 This library is a set of utility classes and methods by **Randomguy01!** 
