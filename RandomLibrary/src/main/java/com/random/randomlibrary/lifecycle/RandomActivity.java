@@ -5,7 +5,6 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import butterknife.ButterKnife;
 import com.random.randomlibrary.network.NetworkManager;
 import com.random.randomlibrary.network.NetworkManager.OnNetworkChangeListener;
 
@@ -26,7 +25,6 @@ public abstract class RandomActivity extends AppCompatActivity {
   @Override
   protected void onCreate(@Nullable Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    ButterKnife.bind(this);
   }
 
   /**

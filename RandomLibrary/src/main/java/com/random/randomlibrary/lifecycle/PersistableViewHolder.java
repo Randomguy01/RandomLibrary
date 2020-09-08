@@ -2,8 +2,6 @@ package com.random.randomlibrary.lifecycle;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import butterknife.ButterKnife;
 
 /**
  * 9/5/2020
@@ -22,7 +20,6 @@ public abstract class PersistableViewHolder implements Persistable {
 
   public PersistableViewHolder(@NonNull Context context) {
     CONTEXT = context;
-    ButterKnife.bind(this, ((AppCompatActivity) context));
   }
 
   /**
