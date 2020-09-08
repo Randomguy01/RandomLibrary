@@ -1,8 +1,5 @@
 apply plugin: 'com.android.library'
 
-apply plugin: 'com.android.library'
-apply plugin: 'com.jakewharton.butterknife'
-
 android {
     compileSdkVersion 29
     buildToolsVersion "30.0.2"
