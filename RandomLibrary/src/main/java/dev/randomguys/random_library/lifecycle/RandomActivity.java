@@ -1,12 +1,12 @@
-package com.random.randomlibrary.lifecycle;
+package dev.randomguys.random_library.lifecycle;
 
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import com.random.randomlibrary.network.NetworkManager;
-import com.random.randomlibrary.network.NetworkManager.OnNetworkChangeListener;
+import dev.randomguys.random_library.network.NetworkManager;
+import dev.randomguys.random_library.network.NetworkManager.OnNetworkChangeListener;
 
 /**
  * Created by Ian White on 9/5/2020

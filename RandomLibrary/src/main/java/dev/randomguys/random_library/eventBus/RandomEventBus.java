@@ -1,4 +1,4 @@
-package com.random.randomlibrary.eventBus;
+package dev.randomguys.random_library.eventBus;
 
 import com.google.common.eventbus.EventBus;
 
@@ -10,6 +10,7 @@ import com.google.common.eventbus.EventBus;
  * @author Ian White
  * @see EventBus
  */
+@SuppressWarnings("UnstableApiUsage")
 public final class RandomEventBus extends EventBus {
 
   /**

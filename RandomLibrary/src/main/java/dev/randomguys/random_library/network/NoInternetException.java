@@ -1,4 +1,4 @@
-package com.random.randomlibrary.network;
+package dev.randomguys.random_library.network;
 
 /**
  * 9/5/2020

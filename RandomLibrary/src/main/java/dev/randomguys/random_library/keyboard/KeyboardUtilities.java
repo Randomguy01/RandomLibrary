@@ -1,4 +1,4 @@
-package com.random.randomlibrary.keyboard;
+package dev.randomguys.random_library.keyboard;
 
 import android.app.Activity;
 import android.view.KeyEvent;

@@ -1,4 +1,4 @@
-package com.random.randomlibrary.lifecycle;
+package dev.randomguys.random_library.lifecycle;
 
 /**
  * 9/5/2020

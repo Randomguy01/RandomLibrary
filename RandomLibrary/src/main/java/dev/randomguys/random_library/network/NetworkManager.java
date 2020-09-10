@@ -1,4 +1,4 @@
-package com.random.randomlibrary.network;
+package dev.randomguys.random_library.network;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -6,7 +6,7 @@ import android.net.NetworkInfo;
 import android.os.Process;
 import android.util.Log;
 import androidx.annotation.NonNull;
-import com.random.randomlibrary.lifecycle.RandomActivity;
+import dev.randomguys.random_library.lifecycle.RandomActivity;
 import java.util.ArrayList;
 import java.util.Iterator;
 

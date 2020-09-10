@@ -1,4 +1,4 @@
-package com.random.randomlibrary.lifecycle;
+package dev.randomguys.random_library.lifecycle;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
