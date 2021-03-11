@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="random_matchConstraint">0dp</dimen>
+
+  <!--_________________________________________Text Size_________________________________________-->
+  <dimen name="random_textSize_default">16sp</dimen>
+
+  <!--__________________________________________Margin___________________________________________-->
+  <dimen name="random_margin_default">8dp</dimen>
+  <dimen name="random_margin_2x">16dp</dimen>
+  <dimen name="random_margin_3x">32dp</dimen>
+  <dimen name="random_margin_4x">64dp</dimen>
+  <dimen name="random_margin_5x">128dp</dimen>
+
+  <!--__________________________________________Padding__________________________________________-->
+  <dimen name="random_padding_default">8dp</dimen>
+  <dimen name="random_padding_2x">16dp</dimen>
+  <dimen name="random_padding_3x">32dp</dimen>
+  <dimen name="random_padding_4x">64dp</dimen>
+  <dimen name="random_padding_5x">128dp</dimen>
+
+</resources>

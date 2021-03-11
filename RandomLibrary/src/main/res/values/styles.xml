@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!--________________________________________Base Styles________________________________________-->
+
+  <!-- Base Layout -->
+  <style name="random_baseLayout_style">
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:layout_width">match_parent</item>
+  </style>
+
+  <!-- Base View -->
+  <style name="random_baseView_style">
+    <item name="android:layout_width">@dimen/random_matchConstraint</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+
+  <!--_______________________________________Global Styles_______________________________________-->
+
+  <!-- Material Button: Contained -->
+  <style name="random_containedButton_style" parent="Widget.MaterialComponents.Button">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+
+  <!-- Material Button: Contained with Icon -->
+  <style name="random_containedButton_style.Icon" parent="Widget.MaterialComponents.Button.Icon">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="iconGravity">start</item>
+  </style>
+
+  <!-- Material Button: Contained Unelevated -->
+  <style name="random_containedButton_style.Unelevated" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+
+  <!-- Material Button: Contained Unelevated with Icon -->
+  <style name="random_containedButton_style.UnelevatedIcon" parent="Widget.MaterialComponents.Button.UnelevatedButton.Icon">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="iconGravity">start</item>
+  </style>
+
+  <!-- Material Button: Outlined -->
+  <style name="random_outlinedButton_style" parent="Widget.MaterialComponents.Button.OutlinedButton">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+
+  <!-- Material Button: Outlined with Icon -->
+  <style name="random_outlinedButton_style.Icon" parent="Widget.MaterialComponents.Button.OutlinedButton.Icon">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="iconGravity">start</item>
+  </style>
+
+  <!-- Material Button: Text Button -->
+  <style name="random_textButton_style" parent="Widget.MaterialComponents.Button.TextButton">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+
+  <!-- Material Button: Text Button with Icon -->
+  <style name="random_textButton_style.Icon" parent="Widget.MaterialComponents.Button.TextButton.Icon">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="iconGravity">start</item>
+  </style>
+
+  <!-- Material FAB -->
+  <style name="random_fab_style" parent="Widget.MaterialComponents.FloatingActionButton">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="fabSize">normal</item>
+  </style>
+
+  <!-- Material FAB: Mini -->
+  <style name="random_fab_style.mini" parent="random_fab_style">
+    <item name="fabSize">mini</item>
+  </style>
+
+  <!-- Material FAB: Extended -->
+  <style name="random_fab_style.Extended" parent="Widget.MaterialComponents.ExtendedFloatingActionButton.Icon">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+
+  <!-- Material FAB: Text On Extend -->
+  <style name="random_fab_style.Extended.TextOnExtend" parent="Widget.MaterialComponents.ExtendedFloatingActionButton">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+
+
+  <!--____________________________________Jetpack: Navigation____________________________________-->
+
+  <!-- NavHost Fragment -->
+  <style name="random_navHostFragment_style" parent="random_baseView_style">
+    <item name="android:name">androidx.navigation.fragment.NavHostFragment</item>
+    <item name="android:layout_width">@dimen/random_matchConstraint</item>
+    <item name="android:layout_height">@dimen/random_matchConstraint</item>
+    <item name="layout_constraintStart_toStartOf">parent</item>
+    <item name="layout_constraintTop_toTopOf">parent</item>
+    <item name="layout_constraintEnd_toEndOf">parent</item>
+    <item name="layout_constraintBottom_toBottomOf">parent</item>
+    <item name="defaultNavHost">true</item>
+  </style>
+</resources>

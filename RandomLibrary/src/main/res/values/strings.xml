@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!--_______________________________________Common Words________________________________________-->
+  <string name="random_yes">Yes</string>
+  <string name="random_no">No</string>
+  <string name="random_ok">OK</string>
+
+</resources>
