@@ -1,5 +1,6 @@
 package dev.randomguys.random_library.eventBus;
 
+import com.google.common.annotations.Beta;
 import com.google.common.eventbus.EventBus;
 
 /**
@@ -11,6 +12,7 @@ import com.google.common.eventbus.EventBus;
  * @see EventBus
  */
 @SuppressWarnings("UnstableApiUsage")
+@Beta
 public final class RandomEventBus extends EventBus {
 
   /**
