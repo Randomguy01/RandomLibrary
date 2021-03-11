@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 /**
- * Utility class for all thing network related. 
+ * Utility class for all thing network related.
  *
  * @author Ian White
  * @see NoInternetException
@@ -199,8 +199,7 @@ public final class NetworkManager {
     private final RandomActivity ACTIVITY;
 
     /**
-     * Default constructor takes the {@link RandomActivity} and the {@link
-     * OnNetworkChangeListener}
+     * Default constructor takes the {@link RandomActivity} and the {@link OnNetworkChangeListener}
      *
      * @param activity                the calling {@link RandomActivity}
      * @param onNetworkChangeListener {@link OnNetworkChangeListener}
