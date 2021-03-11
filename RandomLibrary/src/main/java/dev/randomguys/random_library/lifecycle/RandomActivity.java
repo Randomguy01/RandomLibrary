@@ -10,6 +10,9 @@ import dev.randomguys.random_library.network.NetworkManager.OnNetworkChangeListe
 
 /**
  * Created by Ian White on 9/5/2020
+ * <p>
+ * Wraps {@link AppCompatActivity} class, adding commonly used functionality and extra helper
+ * methods to make working with activities easier.
  *
  * @author Ian White
  */
@@ -66,10 +69,10 @@ public abstract class RandomActivity extends AppCompatActivity {
    * Used to get subclass's view holder so that it can be called when the activity starts {@link
    * #onStart()} and when it is destroyed {@link #onDestroy()}.
    *
-   * @return {@link PersistableViewHolder} associated with activity.
+   * @return {@link RandomActivityViewHolder} associated with activity.
    */
   @NonNull
-  protected abstract PersistableViewHolder getViewHolder();
+  protected abstract RandomActivityViewHolder getViewHolder();
 
 
 }
