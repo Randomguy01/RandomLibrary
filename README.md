@@ -1,12 +1,13 @@
 ![Android CI](https://github.com/Randomguy01/RandomLibrary/workflows/Android%20CI/badge.svg)
+![Release](https://img.shields.io/github/v/tag/Randomguy01/RandomLibrary?label=Release)
 # Welcome to RandomLibrary!
 
-This library is a set of utility classes and methods by **Randomguy01!** 
+This library is a set of utility classes and methods by **Randomguy01!**
 
 
 ## Purpose
 
-The goal of this library is to make programming in Android faster and easier and to remove boilerplate code. I hope to make starting a new Android project easier, no need to rewrite code from your last project. 
+The goal of this library is to make programming in Android faster and easier and to remove boilerplate code. I hope to make starting a new Android project easier, no need to rewrite code from your last project.
 
 ## Features
 Below are descriptions of all current features.
@@ -28,6 +29,36 @@ Note: This is a **BETA!**
 
 ### Keyboard
 Working with the Android soft keyboard should be super easy but it's not. It's really weird and you're not sure why anything done was done the way it was done. The previous sentence makes more sense than working with the Android keyboard! Use [KeyboardUtilities](https://github.com/Randomguy01/RandomLibrary/blob/master/RandomLibrary/src/main/java/dev/randomguys/random_library/keyboard/KeyboardUtilities.java) to simplify your code.
+
+### Navigation
+Utility methods ready-to-use with Android Jetpack Navigation
+
+## Design Features
+
+### Material Colors
+- 2014 Material Design color palette
+- Common colors
+
+### Material Styles
+
+#### Button
+- Contained
+- Contained with Icon
+- Contained Flat
+- Contained Flat with Icon
+- Outlined
+- Outlined with Icon
+- Text Button
+- Text Button with Icon
+
+#### FAB
+- FAB
+- FAB: Mini
+- FAB: Extended
+- FAB: Text on Extend
+
+### Strings
+- Common words built-in and ready for easy translation
 
 ## Libraries
 Huge thank you to the libraries used in the creation of this project, none of this could exist without them!
