@@ -33,3 +33,6 @@
 
 # GitHub Properties
 github.properties
+
+# Node Modules
+/node_modules
