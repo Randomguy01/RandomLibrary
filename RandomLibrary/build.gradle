@@ -47,8 +47,8 @@ publishing {
             url = uri("https://maven.pkg.github.com/Randomguy01/RandomLibrary")
 
             credentials{
-                username = localProperties['git.user']
-                password = localProperties['git.token']
+                username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
+                password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
             }
         }
     }
